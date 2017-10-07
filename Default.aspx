@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
@@ -164,7 +164,7 @@
                                     </li>
                                     <li class="">
                                         <a class="" href="san-pham-chi-tiet.html" title="Sản phẩm khuyến mãi" target="_self">
-                                            <img class="icon-menu" alt="Sản phẩm khuyến mãi" src="images/s11.png" />Sản phẩm khuyến mãi
+                                            <img class="icon-menu" alt="Sản phẩm khuyến mãi" src="images/s11.png">Sản phẩm khuyến mãi
                                         </a>
                                     </li>
                                     <!--<li class="has-child">
@@ -612,7 +612,6 @@
         </section>
     </div>
     <!--danh mục nổi bật-->
-
     <!--product máy bay cánh bằng-->
     <section id="home_block_1" class="home_block">
         <div class="container">
@@ -1448,7 +1447,6 @@
         </div>
     </section>
     <!--product máy bay cánh bằng-->
-
     <!--product máy bay trực thăng-->
     <section id="home_block_2" class="home_block">
         <div class="container">
@@ -1982,9 +1980,8 @@
         </div>
     </section>
     <!--product máy bay trực thăng-->
-
     <!--product pin và phụ kiện-->
-    <section id="home_block_2" class="home_block">
+    <section id="home_block_3" class="home_block">
         <div class="container">
             <div class="main">
                 <div class="title_chir">
@@ -2516,7 +2513,6 @@
         </div>
     </section>
     <!--product pin và phụ kiện-->
-
     <!--tin tức-->
     <section id="home_block_blog" class="home_block">
         <div class="container">
