@@ -82,7 +82,7 @@
                                                 <div class="input-box name-firstname">
                                                     <label for="firstname">Tên <span class="required">*</span></label>
                                                     <br>
-                                                    <input type="text" name="FirstName" title="Tên" class="input-text " placeholder="Tên" id="firstname"/>
+                                                    <input type="text" name="FirstName" title="Tên" class="input-text " placeholder="Tên" id="firstname" runat="server"/>
                                                 </div>
                                             </div>
                                         </li>
@@ -90,23 +90,23 @@
                                             <div class="input-box name-lastname">
                                                 <label for="lastname">Họ <span class="required">*</span> </label>
                                                 <br/>
-                                                <input type="text" class="input-text" value="" id="lastname" title="email" name="LastName" placeholder="Họ"/>
+                                                <input type="text" class="input-text" id="lastname" title="Họ" name="LastName" placeholder="Họ" runat="server"/>
                                             </div>
                                         </li>
                                         <li class="col-sm-6 col-xs-12">
                                             <label for="email">Email<span class="required">*</span></label>
                                             <br/>
-                                            <input type="email" value="" class="input-text" title="Email" name="email" id="email" placeholder="Email"/>
+                                            <input type="email" value="" class="input-text" title="Email" name="email" id="email" placeholder="Email" runat="server"/>
                                         </li>
                                         <li class="col-sm-6 col-xs-12">
                                             <label for="pass">Mật khẩu<span class="required">*</span></label>
                                             <br/>
-                                            <input type="password" value="" class="input-text" title="Mật khẩu" name="password" id="pass" placeholder="Mật khẩu"/>
+                                            <input type="password" value="" class="input-text" title="Mật khẩu" name="password" id="pass" placeholder="Mật khẩu" runat="server"/>
                                         </li>
                                     </ul>
                                     <p class="required"><span class="required">*</span> Bắt buộc</p>
                                     <div class="buttons-set">
-                                        <button id="send2" type="submit" class="button login"><span>Đăng ký</span></button>
+                                        <button id="send2" type="submit" class="button login" runat="server" onserverclick="btnDangKy_ServerClick"><span>Đăng ký</span></button>
                                         <!--hoặc <a href="/account/login">Đăng nhập</a> -->
                                     </div>
                                 </div>

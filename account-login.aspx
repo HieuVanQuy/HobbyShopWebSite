@@ -13,21 +13,21 @@
                         <div accept-charset="UTF-8" action="account-login" id="customer_login" method="post">
                             <input name="FormType" type="hidden" value="customer_login" />
                             <input name="utf8" type="hidden" value="true" />
-
+                            
                             <div class="col_full">
                                 <span class="not-null">*</span>
                                 <span class="icon_checkout ico-email"></span>
-                                <input required="" type="email" title="email" name="email" id="email" placeholder="Email của bạn" value="" class="form-control" />
+                                <input required="" type="email" title="email" name="email" id="email" placeholder="Email của bạn" class="form-control" runat="server"/>
                             </div>
 
                             <div class="col_full">
                                 <span class="not-null">*</span>
                                 <span class="icon_checkout ico-pass"></span>
-                                <input required="" type="password" title="Mật khẩu" name="password" id="pass" placeholder="Nhập mật khẩu" value="" class="form-control" />
+                                <input required="" type="password" title="Mật khẩu" name="password" id="pass" placeholder="Nhập mật khẩu" class="form-control" runat="server"/>
                             </div>
 
                             <div class="col_full nobottommargin action">
-                                <button class="button button-3d button-black nomargin" id="login-form-submit" name="login-form-submit" type="submit" value="login">Đăng nhập</button>
+                                <button class="button button-3d button-black nomargin" id="login_form_submit" name="login_form_submit" type="submit" value="login" runat="server" onserverclick="Login_form_Submit_ServerClick">Đăng nhập</button>
                                 <a href="#" onclick="showRecoverPasswordForm();return false;" class="">Quên mật khẩu?</a>
                             </div>
 
@@ -54,6 +54,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
